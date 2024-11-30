@@ -1,7 +1,7 @@
 {
     "name": "Merge config",
     "nickname": "Merge config",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Config",
     "description": "Merge two configurations.",
     "exposure": 4,

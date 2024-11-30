@@ -1,7 +1,7 @@
 {
     "name": "Zero config",
     "nickname": "Zero config",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Config",
     "description": "Get a zero configuration for a robot.",
     "exposure": 4,

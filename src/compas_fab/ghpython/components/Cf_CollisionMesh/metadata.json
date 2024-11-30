@@ -1,7 +1,7 @@
 {
     "name": "Collision Mesh",
     "nickname": "CM",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Scene",
     "description": "Add or remove a collision mesh from the planning scene.",
     "exposure": 4,

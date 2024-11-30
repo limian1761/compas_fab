@@ -1,7 +1,7 @@
 {
     "name": "Forward Kinematics",
     "nickname": "FK",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Planning",
     "description": "Calculate the robot's forward kinematic for a given configuration.",
     "exposure": 2,

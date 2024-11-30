@@ -1,7 +1,7 @@
 {
     "name": "Plan Motion",
     "nickname": "Plan Motion",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Planning",
     "description": "Calculate a motion plan.",
     "exposure": 4,

@@ -1,7 +1,7 @@
 {
     "name": "Subscribe to topic",
     "nickname": "Subscribe",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "ROS",
     "description": "Receives messages that have been published to a ROS topic.",
     "exposure": 4,

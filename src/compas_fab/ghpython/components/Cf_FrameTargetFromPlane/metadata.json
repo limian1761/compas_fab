@@ -1,7 +1,7 @@
 {
     "name": "Target from a plane/frame",
     "nickname": "Frame target",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Planning",
     "description": "Create a fully constrained pose target for the robot's end-effector using a GH Plane or compas Frame.",
     "exposure": 8,

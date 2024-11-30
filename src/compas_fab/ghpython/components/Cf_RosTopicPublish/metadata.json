@@ -1,7 +1,7 @@
 {
     "name": "Publish to topic",
     "nickname": "Publish",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "ROS",
     "description": "Publishes messages to a ROS topic.",
     "exposure": 4,

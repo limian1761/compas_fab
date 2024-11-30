@@ -9,7 +9,7 @@ import time
 from compas.geometry import Frame
 from compas.geometry import Transformation
 from compas.scene import SceneObject
-from compas_ghpython import create_id
+from compas_fab.ghpython.components import create_id
 from compas_rhino.conversions import frame_to_rhino_plane
 from ghpythonlib.componentbase import executingcomponent as component
 from scriptcontext import sticky as st

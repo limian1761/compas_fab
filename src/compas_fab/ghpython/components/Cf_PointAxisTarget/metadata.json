@@ -1,7 +1,7 @@
 {
     "name": "Point Axis Target",
     "nickname": "Point Axis Target",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Planning",
     "description": "Create a point and axis target for the robot's end-effector motion planning.",
     "exposure": 8,
