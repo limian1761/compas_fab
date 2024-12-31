@@ -115,7 +115,7 @@ class RobotVisualize(component):
                             else:
                                 mesh = cm.mesh
 
-                            collision_meshes.extend(SceneObject(mesh).draw())
+                            collision_meshes.extend(SceneObject(item = mesh).draw())
 
                         cached_scene["cm"] = collision_meshes
 
@@ -136,7 +136,7 @@ class RobotVisualize(component):
 
                             mesh = acm.collision_mesh.mesh.transformed(t)
 
-                            attached_meshes.extend(SceneObject(mesh).draw())
+                            attached_meshes.extend(SceneObject(item = mesh).draw())
 
                     cached_scene["acm"] = attached_meshes
 

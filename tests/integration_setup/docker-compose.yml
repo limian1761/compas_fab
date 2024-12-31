@@ -6,16 +6,16 @@ services:
     environment:
       - ROS_HOSTNAME=moveit-demo
       - ROS_MASTER_URI=http://ros-core:11311
-    #   - DISPLAY=host.docker.internal:0.0
+      - DISPLAY=host.docker.internal:0.0
     depends_on:
       - ros-core
     command:
       - roslaunch
       - --wait
-      - ur5_moveit_config
+      - panda_moveit_config
       - demo.launch
-      - use_rviz:=false
-    #   - use_rviz:=true
+      #- use_rviz:=false
+      - use_rviz:=true
 
   ros-core:
     image: gramaziokohler/ros-noetic-moveit

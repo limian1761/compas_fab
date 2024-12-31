@@ -1,0 +1,14 @@
+services:
+  moveit-demo:
+    image: moveit/moveit2:main-rolling-tutorial-source
+    container_name: moveit2-tutorial
+    environment:
+      - ROS_HOSTNAME=moveit2-tutorial
+      - DISPLAY=host.docker.internal:0.0
+    command:
+      - ros2
+      - launch 
+      - moveit2_tutorials 
+      - demo.launch.py
+      - rviz_config:=panda_moveit_config_demo_empty.rviz
+
