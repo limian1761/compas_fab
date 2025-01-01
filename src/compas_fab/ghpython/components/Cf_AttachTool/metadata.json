@@ -1,7 +1,7 @@
 {
     "name": "Attached Tool",
     "nickname": "Tool",
-    "category": "COMPAS FAB",
+    "category": "COMPAS FAB2",
     "subcategory": "Scene",
     "description": "Attach a tool to the robot.",
     "exposure": 4,

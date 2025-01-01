@@ -98,3 +98,6 @@ and a long list of [contributors](https://github.com/compas-dev/compas_fab/blob/
 python C:\Users\lichao\compas_fab\compas-actions.ghpython_components\componentize_cpy.py C:\Users\lichao\compas_fab\src\compas_fab\ghpython\components ghuser
 
 mklink /d C:\Users\lichao\AppData\Roaming\Grasshopper\UserObjects\compas_fab C:\Users\lichao\compas_fab\ghuser
+
+## install to rhino
+ pip install -t C:\Users\lichao\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\IronPython\Lib\site-packages compas_fab
