@@ -123,3 +123,6 @@ src/compas_fab/ghpython/components/ghuser/*.ghuser
 compas-actions.ghpython_components/*
 ghuser/**
 ghuser/Cf_RosTopicSubscribe.ghuser
+ws_moveit2/install/**
+ws_moveit2/build/**
+ws_moveit2/log/**
