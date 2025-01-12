@@ -100,4 +100,4 @@ python C:\Users\lichao\compas_fab\compas-actions.ghpython_components\componentiz
 mklink /d C:\Users\lichao\AppData\Roaming\Grasshopper\UserObjects\compas_fab C:\Users\lichao\compas_fab\ghuser
 
 ## install to rhino
- pip install -t C:\Users\lichao\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\IronPython\Lib\site-packages compas_fab
+pip install -e . --target C:/Users/lichao/.rhinocode/py39-rh8/site-envs/default-UrjRYXjB

@@ -2,9 +2,8 @@
 #   Humble on a NVIDIA system:
 #   DOCKER_IMAGE=humble-humble-tutorial-source docker compose run gpu
 #   Rolling without discrete graphics:
-#   DOCKER_IMAGE=main-rolling-tutorial-source compose run cpu
-
-#  ros2 
+#   DOCKER_IMAGE=main-rolling-tutorial-source docker compose run --rm --name moveit2_container cpu
+# DOCKER_IMAGE=main-rolling-tutorial-source docker compose run --rm --name moveit2_container gpu
 
 services:
   cpu:
@@ -13,6 +12,18 @@ services:
     privileged: true
     network_mode: host
     command: /bin/bash
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      QT_X11_NO_MITSHM: 1
+      DISPLAY: host.docker.internal:0
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: all
 
   gpu:
     image: moveit/moveit2:humble-humble-tutorial-source
@@ -28,6 +39,7 @@ services:
               count: 1
               capabilities: [gpu]
     environment:
+      QT_X11_NO_MITSHM: 1
       NVIDIA_VISIBLE_DEVICES: all
       NVIDIA_DRIVER_CAPABILITIES: all
-      DISPLAY: exch
+      DISPLAY:  host.docker.internal:0
