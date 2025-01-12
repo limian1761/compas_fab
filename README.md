@@ -100,4 +100,5 @@ python C:\Users\lichao\compas_fab\compas-actions.ghpython_components\componentiz
 mklink /d C:\Users\lichao\AppData\Roaming\Grasshopper\UserObjects\compas_fab C:\Users\lichao\compas_fab\ghuser
 
 ## install to rhino
-pip install -e . --target C:/Users/lichao/.rhinocode/py39-rh8/site-envs/default-UrjRYXjB
+
+pip install “C:\Users\lichao\compas_fab” --target C:/Users/lichao/.rhinocode/py39-rh8/site-envs/default-UrjRYXjB --upgrade
